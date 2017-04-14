@@ -1,0 +1,122 @@
+#login_content{
+  margin-top: 200px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+#login_content h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 0.2em;
+  line-height: 2rem;
+  text-transform: uppercase;
+}
+
+#login_content input{
+  width: 30%;
+  height: 50px;
+  text-align: center;
+  border: 4px strong black;
+  border: 2px solid black;
+}
+
+#login_content button{
+  text-align: center;
+  width: 80px;
+  height: 50px;
+  background-color: #ffffff;
+  border: 2px solid black;
+}
+
+#login_content button:hover{
+  background-color: #4DD0E1;
+  color: white;
+}
+
+#register{
+  border: 2px solid black;
+  color: black;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  line-height: 2rem;
+  width: 200px;
+  height: 50px;
+  padding-top: 5px;
+  text-transform: uppercase;
+}
+
+#login_content a:visited{
+  background-color: white;
+}
+
+#login_content a:hover{
+  background-color: #4DD0E1;
+  color: white;
+}
+
+#sub_menu{
+  position: relative;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+#sub_menu ul{
+  list-style: none;
+
+}
+
+#sub_menu li{
+  display: inline-block;
+}
+
+#sub_menu a:link{
+  top: 0;
+  text-align: center;
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: 'Raleway' sans-serif;
+  color: #424242;
+  text-decoration: none;
+  letter-spacing: 0.2em;
+  font-weight: 300;
+  padding: 15px 40px;
+  border: 0px solid black;
+  background: transparent;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  font-size: 15px;
+}
+
+#sub_menu a:visited{
+  text-decoration: none;
+  color: #424242;
+}
+
+#sub_menu a:hover{
+  background-color: #36b493;
+}
+
+#main_content{
+  width: 100%;
+  height: 200px;
+  margin-top: 210px;
+  position: relative;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  text-align: center;
+}

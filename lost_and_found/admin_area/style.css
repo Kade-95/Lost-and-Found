@@ -1,0 +1,178 @@
+#login_content{
+  margin-top: 200px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+#login_content h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 0.2em;
+  line-height: 2rem;
+  text-transform: uppercase;
+}
+
+#login_content input{
+  width: 30%;
+  height: 50px;
+  text-align: center;
+  border: 4px strong black;
+  border: 2px solid black;
+}
+
+#login_content button{
+  text-align: center;
+  width: 80px;
+  height: 50px;
+  background-color: #ffffff;
+  border: 2px solid black;
+}
+
+#login_content button:hover{
+  background-color: #4DD0E1;
+  color: white;
+}
+
+#register{
+  border: 2px solid black;
+  color: black;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  line-height: 2rem;
+  width: 200px;
+  height: 50px;
+  padding-top: 5px;
+  text-transform: uppercase;
+}
+
+#login_content a:visited{
+  background-color: white;
+}
+
+#login_content a:hover{
+  background-color: #4DD0E1;
+  color: white;
+}
+
+#main_content{
+  margin-top: 200px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  position: relative;
+}
+
+#main_content h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 0.2em;
+  line-height: 2rem;
+  text-transform: uppercase;
+}
+
+#details img{
+  width: 50%;
+  height: 400px;
+  border: 1px solid #ccc;
+}
+
+#details ul{
+  list-style: none;
+  padding-left: 25%;
+}
+
+#details li{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  margin-top: 50px;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+table#example {
+ border-collapse: collapse;
+ width: 100%;
+}
+
+#example tr {
+ background-color: #fff;
+ border: 2px solid black;
+ text-align: center;
+ font-family: 'Raleway', sans-serif;
+ letter-spacing: 0.2em;
+ line-height: 2rem;
+ text-transform: uppercase;
+ font-weight: 300;
+}
+
+#example tr:hover{
+  background-color: #ccc;
+  margin-top: 100px;
+}
+
+#example td {
+ padding: 3px 5px;
+}
+
+#example td:hover {
+ cursor: pointer;
+}
+
+#example img{
+  width: 60px;
+  height: 60px;
+  border: 2px solid #ccc;
+}
+
+a:link{
+  text-decoration: none;
+  color: black;
+  text-transform: none;
+}
+
+a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+#matches{
+  position: relative;
+  margin-bottom: 100px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.item{
+  width: 50%;
+  position: relative;
+  background-color: red;
+  margin: 0;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  text-align: center;
+}
+
+.item.right{
+  right: 0;
+  float: right;
+  background-color: #fff;
+}
+
+.item.left{
+  left: 0;
+  float: left;
+  background-color: #fff;
+}

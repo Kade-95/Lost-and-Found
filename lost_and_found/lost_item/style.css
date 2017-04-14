@@ -1,0 +1,30 @@
+#found_content{
+  margin-top: 200px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+#name{
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  border: 4px strong black;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#found_content button{
+  text-align: center;
+  width: 80px;
+  height: 50px;
+  background-color: #ffffff;
+  border: 2px solid black;
+}
+
+#found_content button:hover{
+  background-color: #4DD0E1;
+  color: white;
+}
